@@ -25,31 +25,31 @@
         </dd>
        
         <dt class="col-3">
-            @Html.DisplayNameFor(model => model.Celular)
         </dt>
-        <dd class="col-9">
-            @Html.DisplayFor(model => model.Celular)
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Cidade)
         </dd>
+        <dt class="col-sm-2">
        
         <dt class="col-3">
-            @Html.DisplayNameFor(model => model.CpfCnpj)
-        </dt>
-        <dd class="col-9">
-            @Html.DisplayFor(model => model.CpfCnpj)
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UF)
         </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.CEP)
        
         <dt class="col-3">
-            @Html.DisplayNameFor(model => model.DataNascFundacao)
-        </dt>
-        <dd class="col-9">
-            @Html.DisplayFor(model => model.DataNascFundacao)
+            @Html.DisplayFor(model => model.CEP)
         </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Bairro)
+        </dt>
        
         
-    </dl>
-
-    <form asp-action="Delete">
-        <input type="hidden" asp-for="ClientesId" />
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Numero)
+        </dt>
 
         <div class="row">
 
@@ -66,5 +66,188 @@
 
         </div>
         </div>
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Telefone)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Telefone)
+        </dd>
+        <dt class="col-sm-2">
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Cidade)
+        </dd>
+        <dt class="col-sm-2">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TipoPessoa)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TipoPessoa)
+        </dd>
+        <dt class="col-sm-2">
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UF)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.CEP)
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DataCadastro)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DataCadastro)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayFor(model => model.CEP)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Bairro)
+        </dt>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.CadastroAtivo)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.CadastroAtivo)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Obervacao)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Obervacao)
+        </dd>
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Numero)
+        </dt>
+        <input type="submit" value="Apagar" class="btn btn-danger" /> |
+        <a asp-action="Index">Voltar</a>
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Telefone)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Telefone)
+        </dd>
+        <dt class="col-sm-2">
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Cidade)
+        </dd>
+        <dt class="col-sm-2">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TipoPessoa)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TipoPessoa)
+        </dd>
+        <dt class="col-sm-2">
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UF)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.CEP)
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DataCadastro)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DataCadastro)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayFor(model => model.CEP)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Bairro)
+        </dt>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.CadastroAtivo)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.CadastroAtivo)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Obervacao)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Obervacao)
+        </dd>
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Numero)
+        </dt>
+        <input type="submit" value="Apagar" class="btn btn-danger" /> |
+        <a asp-action="Index">Voltar</a>
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Telefone)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Telefone)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Celular)
+        </dt>
+        <dd class="col-9">
+            @Html.DisplayFor(model => model.Celular)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TipoPessoa)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TipoPessoa)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.CpfCnpj)
+        </dt>
+        <dd class="col-9">
+            @Html.DisplayFor(model => model.CpfCnpj)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DataCadastro)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DataCadastro)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DataNascFundacao)
+        </dt>
+        <dd class="col-9">
+            @Html.DisplayFor(model => model.DataNascFundacao)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.CadastroAtivo)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.CadastroAtivo)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Obervacao)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Obervacao)
+        </dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="ClientesId" />
+        <input type="submit" value="Apagar" class="btn btn-danger" /> |
+        <a asp-action="Index">Voltar</a>
     </form>
 </div>
