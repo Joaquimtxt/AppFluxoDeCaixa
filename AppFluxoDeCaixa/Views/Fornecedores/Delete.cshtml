@@ -12,32 +12,35 @@
     <hr />
     <dl class="row">
         <dt class = "col-3">
-            @Model.Nome
+            @Html.DisplayNameFor( model => model.Nome)
         </dt>
         <dd class = "col-9">
-            @Model.Nome
+            @Html.DisplayFor( model => model.Nome)
         </dd>
         <dt class = "col-3">
-            @Model.CNPJ
+            @Html.DisplayNameFor( model => model.CNPJ)
         </dt>
         <dd class = "col-9">
-            @Model.CNPJ
+            @Html.DisplayFor( model => model.CNPJ)
         </dd>
         <dt class = "col-3">
-            @Model.Email
+            @Html.DisplayNameFor( model => model.Email)
         </dt>
         <dd class = "col-9">
-            @Model.Email
+            @Html.DisplayFor( model => model.Email)
         </dd>
         <dt class = "col-3">
-            @Model.Telefone
+            @Html.DisplayNameFor( model => model.Telefone)
         </dt>
         <dd class = "col-9">
-            @Model.Telefone
+            @Html.DisplayFor( model => model.Telefone)
         </dd>
         <dt class = "col-3">
-            @Model.DataCadastro
+            @Html.DisplayNameFor( model => model.DataCadastro)
         </dt>
+        <dd class="col-9">
+            @Html.DisplayFor(model => model.DataCadastro)
+        </dd>
     </dl>
 
     <div class="row">
