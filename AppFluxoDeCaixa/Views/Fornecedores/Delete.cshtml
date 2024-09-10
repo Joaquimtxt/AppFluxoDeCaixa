@@ -1,0 +1,58 @@
+﻿@model AppFluxoDeCaixa.Models.Fornecedor
+
+@{
+    ViewData["Title"] = "Apagar";
+}
+
+<h1 class="display-5 text-light text-center">Deletar cadastro de Fornecedor</h1>
+
+<h3 class="mt-3 mb-3">Deseja excluir esse cadastro?</h3>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class = "col-3">
+            @Model.Nome
+        </dt>
+        <dd class = "col-9">
+            @Model.Nome
+        </dd>
+        <dt class = "col-3">
+            @Model.CNPJ
+        </dt>
+        <dd class = "col-9">
+            @Model.CNPJ
+        </dd>
+        <dt class = "col-3">
+            @Model.Email
+        </dt>
+        <dd class = "col-9">
+            @Model.Email
+        </dd>
+        <dt class = "col-3">
+            @Model.Telefone
+        </dt>
+        <dd class = "col-9">
+            @Model.Telefone
+        </dd>
+        <dt class = "col-3">
+            @Model.DataCadastro
+        </dt>
+    </dl>
+
+    <div class="row">
+
+        <div class="col col-md-4 mt-4">
+            <a class="btn btn-outline-secondary w-100" asp-action="Index">Cancelar</a>
+
+        </div>
+
+        <div class="col-2 col-md mt-4">
+        </div>
+
+        <div class="col col-md-4 mt-4">
+            <input type="submit" value="Excluir" class="btn btn-danger w-100" />
+
+        </div>
+    </div>
+</div>
